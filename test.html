@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heart Image</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+
+      .heart {
+        width: 200px;
+        height: 200px;
+        background-image: radial-gradient(
+            circle at 45% 20%,
+            transparent 0%,
+            transparent 5%,
+            #ff0066 5%,
+            #ff0066 40%,
+            transparent 40%,
+            transparent 100%
+          ),
+          radial-gradient(
+            circle at 55% 20%,
+            transparent 0%,
+            transparent 5%,
+            #ff0066 5%,
+            #ff0066 40%,
+            transparent 40%,
+            transparent 100%
+          ),
+          radial-gradient(
+            circle at 20% 20%,
+            transparent 0%,
+            transparent 30%,
+            #ff0066 30%,
+            #ff0066 50%,
+            transparent 50%,
+            transparent 100%
+          ),
+          radial-gradient(
+            circle at 80% 20%,
+            transparent 0%,
+            transparent 30%,
+            #ff0066 30%,
+            #ff0066 50%,
+            transparent 50%,
+            transparent 100%
+          ),
+          radial-gradient(
+            circle at 50% 50%,
+            #ff0066 0%,
+            #ff0066 25%,
+            transparent 25%,
+            transparent 100%
+          );
+        background-size: 50px 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heart"></div>
+  </body>
+</html>
